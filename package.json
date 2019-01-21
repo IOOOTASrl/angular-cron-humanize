@@ -1,6 +1,6 @@
 {
   "name": "angular-cron-humanize",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Humanize cron",
   "main": "dist/angular-cron-humanize.min.js",
   "types": "dist/src/angular-cron-humanize.d.ts",
