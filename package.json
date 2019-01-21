@@ -1,0 +1,45 @@
+{
+  "name": "angular-cron-humanize",
+  "version": "0.0.0",
+  "description": "Humanize cron",
+  "main": "dist/angular-cron-humanize.min.js",
+  "types": "dist/src/angular-cron-humanize.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack",
+    "demo": "open ./demo/index.html",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "cron",
+    "quartz",
+    "translate",
+    "humanize",
+    "language"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "author": "Matteo Padovano <mrba7ista@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cronstrue": "^1.60.0"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^7.0.8",
+    "@types/angular": "^1.6.53",
+    "semantic-release": "^15.13.3",
+    "terser-webpack-plugin": "^1.2.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^2.0.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "peerDependencies": {
+    "angular": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbatista/angular-cron-humanize.git"
+  }
+}
