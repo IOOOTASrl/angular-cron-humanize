@@ -1,5 +1,5 @@
 {
-  "name": "@mrbatista/angular-cron-humanize",
+  "name": "@iooota_srl/angular-cron-humanize",
   "version": "1.0.0",
   "description": "Humanize cron",
   "main": "dist/angular-cron-humanize.min.js",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrbatista/angular-cron-humanize.git"
+    "url": "https://github.com/IOOOTASrl/angular-cron-humanize.git"
   },
   "publishConfig": {
     "access": "public"
